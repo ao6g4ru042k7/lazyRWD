@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>screenRem</title>
+    <script src="lazyRWD.min.js"></script>
+    <style>
+        .box {
+            width: 490px;
+            height: 490px;
+            background-color: goldenrod;
+            margin: 0 auto;
+        }
+
+        body {
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+    <script>
+        var screenScale = new screenScale();
+        screenScale.init(500);
+    </script>
+</body>
+
+</html>
